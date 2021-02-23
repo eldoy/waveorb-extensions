@@ -13,7 +13,7 @@ async function load(path, into) {
   return res
 }
 
-async function sleep(time, s = 0.5) {
+function sleep(time, s = 0.5) {
   return new Promise(r => setTimeout(r, s*1000))
 }
 
